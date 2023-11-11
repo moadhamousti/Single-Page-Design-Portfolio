@@ -1,0 +1,86 @@
+/* =================== SLIDER SECTION =================== */
+
+.slider-title{
+    text-align: center;
+    padding-bottom: 56px;
+    padding-top: 88px;
+}
+
+
+.slider {
+  display: flex;
+  max-width: 1400px;
+  position: relative;
+}
+
+.arrows i {
+  height: 64px;
+  width: 64px;
+  text-align: center;
+  background: var(--Black);
+  border-radius: 50%;
+}
+
+.left-circle {
+  margin-right: 50px;
+}
+
+.arrows {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 320px;
+  left: 650px;
+  cursor: pointer;
+}
+
+.left-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 320px;
+  left: 550px;
+  cursor: pointer;
+}
+
+.arrows i:hover {
+  background: var(--Galactic-Blue);
+}
+
+.slider .slides {
+  height: 360px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.slides.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.slides.dragging img {
+  pointer-events: none;
+}
+
+.slides img {
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+  border-radius: 10px;
+  
+}
+
+.slides img:first-child {
+  margin-left: 0px;
+}
+

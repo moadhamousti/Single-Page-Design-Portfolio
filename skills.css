@@ -1,0 +1,266 @@
+/* =================== LANDING SECTION =================== */
+
+.landing-text{
+    margin-left: 156px;
+    margin-right: 154px;
+    margin-top: 34px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    color: var(--White);
+    height: auto;
+    width: auto;
+    margin: 75px;
+    scale: 0.9;
+  }
+  
+  .box-skills1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 354px;
+    height: 380px;
+    margin-left: 10px;
+  }
+  
+  .box-skills2 {
+    width: 354px;
+    height: 380px;
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 10px;
+  }
+  
+  .box-1 {
+    display: grid;
+    width: 354px;
+    height: 362px;
+    background: var(--Galactic-Blue);
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  
+  .box-1 picture {
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+  
+  .box-1 h4 {
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+  
+  .box-2 {
+    display: grid;
+    width: 164px;
+    height: 182px;
+    background: var(--Summer-Yellow);
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  .box-2 picture {
+    margin-left: 75px;
+    height: 95px;
+    margin-top: 20px;
+  }
+  
+  .box-2 h4 {
+    margin-left: 15px;
+  }
+  
+  .box-3 {
+    display: grid;
+    width: 164px;
+    height: 182px;
+    background: var(--Pink);
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  
+  .box-3 picture {
+    margin-left: 75px;
+    margin-top: 20px;
+  }
+  
+  .box-3 h4 {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  
+  .box-4 {
+    display: grid;
+    width: 354px;
+    height: 158px;
+    background: var(--Light-Red);
+    border-radius: 8px;
+  }
+  
+  .box-4 picture {
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  
+  .box-4 h4 {
+    margin-left: 15px;
+  }
+  
+  .box-5 {
+    display: grid;
+    width: 354px;
+    height: 182px;
+    background: var(--Cyan);
+    border-radius: 8px;
+  }
+  
+  .box-5 picture {
+    margin-top: 20px;
+    margin-left: 170px;
+  }
+  
+  .box-5 h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .box-6 {
+    display: grid;
+    background: var(--Dark-Purple);
+    width: 354px;
+    height: 158px;
+    border-radius: 8px;
+  }
+  
+  .box-6 picture {
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  
+  .box-6 h4 {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+
+
+  /* =================== LANDING RESPONSIVNESS =================== *
+    
+
+
+/* Mobile styles */
+@media (max-width: 375px) {
+    .landing-text {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 96px;
+    }
+
+    .landing-text .centered-title h1{
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .landing-text .centered-title p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 162.5% */
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    html,
+    body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    
+    .skills-container,
+    .bio-design-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: space-evenly;
+    }
+  
+    .skills-container{
+      justify-content: center;
+    }
+  
+    
+  
+    .skills {
+      grid-template-columns: auto;
+      width: 375px;
+      height: 1150px;
+      margin: 0px;
+    }
+  
+    .box-1 {
+      margin-bottom: 20px;
+    }
+  
+    
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    html,
+    body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  
+    
+    .skills-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skills {
+      grid-template-columns: auto auto;
+      width: 800px;
+      justify-content: center;
+    }
+    
+    .box-5 {
+      grid-template-columns: auto auto;
+      margin-top: 5px;
+    }
+  
+    .box-2 {
+      margin-left: 10px;
+    }
+  
+    .box-3 {
+      margin-left: 20px;
+    }
+  
+    .box-4 {
+      margin-left: 10px;
+    }
+  
+    .box-6 {
+      margin-left: 20px;
+      height: 182px;
+    }
+  
+    
+  }
+  
+  @media only screen and (min-width: 1920px) and (max-height: 1080px) {
+    .skills-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 1290px;
+      margin-left: 330px;
+    }
+  
+  }
+  
+  

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+    --Galactic-Blue:#755CDE;
+    --Summer-Yellow:#F6A560;
+    --Pink:#F39E9E;
+    --Light-Red:#EB7565;
+    --Cyan:#61C4B7;
+    --Dark-Purple:#552049;
+    --Medium-Brown:#7A746E;
+    --Black:#030303;
+    --Light-Cream:#FFF7F0;
+    --White:#ffffff;
+
+}
+
+  * {
+    font-family: "Plus Jakarta Sans";
+    margin: 0;
+    padding: 0;
+  }
+html,
+body {
+  background-color: var(--light-cream);
+  -webkit-font-smoothing: antialiased;
+}
+/* ==================================================================================================== */
+
+
+button{
+    width: 228px;
+    height: 56px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 28px;
+}
+
+.button-black{
+    background-color: var(--Black);
+}
+
+.button-orange{
+    background-color: var(--Light-Red);
+}
+
+.button-orange:hover {
+    background: #f6a560;
+  }
+
+.section-paragraph{
+    text-align: left;
+}
+
+button a{
+    color: #FFF7F0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    text-decoration: none;
+}
+p{
+    color: var(--Medium-Brown);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+
+h1{
+    color: var(--Black, #030303);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2{
+    color: var(--Black, #030303);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3{
+    color: var(--Black, #030303);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h4{
+    color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+h1,p{
+    text-align: center;
+}

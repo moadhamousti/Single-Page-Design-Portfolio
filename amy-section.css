@@ -1,0 +1,109 @@
+.amy-infos {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+  
+  .amy-bio{
+    margin-top: 40px;
+    width: 540px;
+    height: 345px;
+  }
+  
+  .amy-pic {
+    width: 355px;
+    height: 355px;
+    margin-right: 100px;
+  }
+  
+  .amy-bio h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  
+  .amy-bio p {
+    line-height: 28px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .amy-bio .button:hover {
+    background: #f6a560;
+  }
+  
+    
+  
+  @media only screen and (max-width: 720px) {
+  
+    .amy-section-container,
+    .amy-infos-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: space-evenly;
+    }
+  
+    .amy-section-container {
+      justify-content: center;
+    }
+  
+    .amy-container {
+      width: 350px;
+      height: 350px;
+    }
+  
+    .amy-infos {
+      display: grid;
+      grid-template-columns: auto;
+      height: 740px;
+      width: 375px;
+    }
+  
+    .amy-bio{
+      width: 370px;
+      height: 300px;
+    }
+  
+    .amy-bio .button-orange {
+      margin-left: 70px;
+    }
+  
+    .amy-pic {
+      width: 325px;
+      height: 325px;
+      margin-left: 20px;
+    }
+  
+    .amy-infos h2 {
+      font-size: 26px;
+      width: 340px;
+      margin-left: 15px;
+      text-align: center;
+    }
+  
+    .amy-infos p {
+      font-size: 16px;
+      width: 340px;
+      margin-left: 15px;
+      text-align: center;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .amy-infos {
+      grid-template-columns: auto auto;
+      margin-top: -200px;
+      margin-left: 100px;
+      height: 450px;
+    }
+  
+    .amy-infos h2 {
+      width: 350px;
+    }
+  
+    .amy-infos p {
+      width: 350px;
+    }   
+  }
+  
+  
+  

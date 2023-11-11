@@ -1,0 +1,45 @@
+/* =================== NAVBAR SECTION =================== */
+
+.navbar-section {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 100px;
+  }
+
+  .button-black:hover {
+    background: var(--Galactic-Blue);
+  }
+  
+  
+  @media only screen and (max-width: 720px) {
+  
+    .navbar-section img {
+      margin-right: 60px;
+    }
+  
+    .navbar-section-container,
+    .navbar-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: space-evenly;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+      margin-left: -60px;
+    }
+  
+    .button {
+      width: 176px;
+      height: 44px;
+      margin-top: 10px;
+      margin-right: -60px;
+    }
+  }
