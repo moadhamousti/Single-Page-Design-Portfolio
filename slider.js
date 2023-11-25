@@ -1,6 +1,6 @@
 const slides = document.querySelector('.slider .slides');
 const images = slides.querySelectorAll('img');
-
+ 
 let currentSlide = 0;
 
 const leftArrow = document.querySelector('.left-arrow');
