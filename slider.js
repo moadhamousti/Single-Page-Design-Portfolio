@@ -1,5 +1,5 @@
-const slides = document.querySelector('.slider .slides'); 
-const images = slides.querySelectorAll('img');
+const slides = document.querySelector('.slider .slides');  
+const images = slides.querySelectorAll('img');  
  
 let currentSlide = 0;
 
